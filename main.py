@@ -1,20 +1,19 @@
 # სავარჯიშო N1
 
-# raw_username = "  Super_coder_2026  "
+raw_username = "  Super_coder_2026  "
 
-# username = raw_username.strip().lower().replace("_" , "-")
+username = raw_username.strip().lower().replace("_" , "-")
 
-# lenght = len(raw_username)
-# upper_case_start = username.startswith("super")
-# dash_count = username.count("-")
-# only_valid_char = username.replace("-", "").isalnum()
+lenght = len(raw_username)
+upper_case_start = username.startswith("super")
+dash_count = username.count("-")
+only_valid_char = username.replace("-", "").isalnum()
 
-# print("მომხმარებლის სახელი: ", username)
-# print("სიგრძე: " , lenght)
-# print("იწყება super-ით: ", upper_case_start)
-# print("ტირეების რაოდენობა: ", dash_count)
-# print("მხოლოდ ასოები და ციფრები: ", only_valid_char)
-
+print("მომხმარებლის სახელი: ", username)
+print("სიგრძე: " , lenght)
+print("იწყება super-ით: ", upper_case_start)
+print("ტირეების რაოდენობა: ", dash_count)
+print("მხოლოდ ასოები და ციფრები: ", only_valid_char)
 
 
 #სავარჯიშო N2
